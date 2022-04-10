@@ -1,0 +1,184 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGADppjGmZBqlo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGADppjG2ZCbS0=",
+					"_parent": {
+						"$ref": "AAAAAAGADppjGmZBqlo="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGADppzD2ZIsCM=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADppzD2ZGPUc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADppzD2ZJuXA=",
+									"_parent": {
+										"$ref": "AAAAAAGADppzD2ZIsCM="
+									},
+									"font": "Arial;23;0",
+									"left": 218,
+									"top": 233,
+									"width": 277,
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;23;0",
+							"left": 208,
+							"top": 223,
+							"width": 297,
+							"height": 129,
+							"nameLabel": {
+								"$ref": "AAAAAAGADppzD2ZJuXA="
+							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGADp1fw2ZjOqw=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"points": "272:24;272:224",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGADp3J3GZsRUA=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 72,
+							"width": 129,
+							"height": 51,
+							"text": "документы на деятельность"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGADp7gdGZ5Xkw=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "392:24;392:224",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGADp/ZXGaHR8E=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"points": "344:504;344:352",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGADqFOHmagP18=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"left": 264,
+							"top": 408,
+							"width": 71.03271484375,
+							"height": 25,
+							"text": "менеджер"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGADqGazGaqUzw=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "8:280;208:280",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGADqIUmWa4RfY=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 256,
+							"width": 113,
+							"height": 38,
+							"text": "Ввод данных"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGADqJpaGa/rSQ=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "504:272;716:272",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGADqQrCmbPPt4=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;26;0",
+							"left": 328,
+							"top": 272,
+							"width": 60,
+							"height": 38,
+							"text": "ИС"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGADqRqXWbVAG4=",
+							"_parent": {
+								"$ref": "AAAAAAGADppjG2ZCbS0="
+							},
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 216,
+							"width": 121,
+							"height": 51,
+							"text": "вывод данных (квитанция, заявка и тд)"
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGADppzD2ZGPUc=",
+					"_parent": {
+						"$ref": "AAAAAAGADppjGmZBqlo="
+					}
+				}
+			]
+		}
+	]
+}

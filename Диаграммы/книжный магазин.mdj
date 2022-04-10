@@ -1,0 +1,1290 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGADi0G4RxPstg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGADi0G4RxQFH0=",
+					"_parent": {
+						"$ref": "AAAAAAGADi0G4RxPstg="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGADi3gUxxWTiM=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADi3gUhxU3mE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADi3gUxxX+gM=",
+									"_parent": {
+										"$ref": "AAAAAAGADi3gUxxWTiM="
+									},
+									"font": "Arial;13;0",
+									"left": 274,
+									"top": 240,
+									"width": 173,
+									"height": 13,
+									"text": "ИС книжного магазина",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADi3gVBxYP4Q=",
+									"_parent": {
+										"$ref": "AAAAAAGADi3gUxxWTiM="
+									},
+									"font": "Arial;13;0",
+									"left": 274,
+									"top": 213,
+									"width": 173,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 264,
+							"top": 208,
+							"width": 193,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAGADi3gUxxX+gM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADi3gVBxYP4Q="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGADkBCfhxro4w=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkBCfRxpib0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBCgBxx2Xs=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBCfhxro4w="
+									},
+									"font": "Arial;13;0",
+									"left": 122,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBCfhxsVV8=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBCfhxro4w="
+									},
+									"font": "Arial;13;0",
+									"left": 122,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Менеджер",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBCfhxtjhs=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBCfhxro4w="
+									},
+									"font": "Arial;13;0",
+									"left": 24,
+									"top": -16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 112,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkBCfhxsVV8="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGADkBIDRx2a1g=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkBIDBx0vME="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBIDRx8P4A=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBIDRx2a1g="
+									},
+									"font": "Arial;13;0",
+									"left": 514,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBIDRx3hTA=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBIDRx2a1g="
+									},
+									"font": "Arial;13;0",
+									"left": 514,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Покупатель",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkBIDRx4v7I=",
+									"_parent": {
+										"$ref": "AAAAAAGADkBIDRx2a1g="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 504,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkBIDRx3hTA="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADkGOLByFZRs=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkGOKxyDFOU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADkGOLRyG9S8=",
+									"_parent": {
+										"$ref": "AAAAAAGADkGOLByFZRs="
+									},
+									"model": {
+										"$ref": "AAAAAAGADkGOKxyDFOU="
+									},
+									"font": "Arial;13;0",
+									"left": 479,
+									"top": 289,
+									"width": 40.33935546875,
+									"height": 13,
+									"alpha": 0.4048918897333844,
+									"distance": 38.07886552931954,
+									"hostEdge": {
+										"$ref": "AAAAAAGADkGOLByFZRs="
+									},
+									"edgePosition": 1,
+									"text": "заявка"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADi3gUxxWTiM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkBIDRx2a1g="
+							},
+							"lineStyle": 2,
+							"points": "534:165;534:280;456:280",
+							"nameLabel": {
+								"$ref": "AAAAAAGADkGOLRyG9S8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADkRHuhyg76w=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkRHuRyeRgM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADkRHuhyhRAY=",
+									"_parent": {
+										"$ref": "AAAAAAGADkRHuhyg76w="
+									},
+									"model": {
+										"$ref": "AAAAAAGADkRHuRyeRgM="
+									},
+									"font": "Arial;13;0",
+									"left": 151,
+									"top": 279,
+									"width": 98.515625,
+									"height": 13,
+									"alpha": -0.3366747414357423,
+									"distance": 42.37924020083418,
+									"hostEdge": {
+										"$ref": "AAAAAAGADkRHuhyg76w="
+									},
+									"edgePosition": 1,
+									"text": "данные о книгах"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADi3gUxxWTiM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkBCfhxro4w="
+							},
+							"lineStyle": 2,
+							"points": "160:152;160:272;264:272",
+							"nameLabel": {
+								"$ref": "AAAAAAGADkRHuhyhRAY="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADkZLDRyx0qA=",
+							"_parent": {
+								"$ref": "AAAAAAGADi0G4RxQFH0="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkZLDRyvel8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADkZLDRyyKWM=",
+									"_parent": {
+										"$ref": "AAAAAAGADkZLDRyx0qA="
+									},
+									"model": {
+										"$ref": "AAAAAAGADkZLDRyvel8="
+									},
+									"font": "Arial;13;0",
+									"left": 407,
+									"top": 120,
+									"width": 74.9404296875,
+									"height": 13,
+									"alpha": 0.13082737905567932,
+									"distance": 76.6550715869472,
+									"hostEdge": {
+										"$ref": "AAAAAAGADkZLDRyx0qA="
+									},
+									"edgePosition": 1,
+									"text": "оповещение"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADkBIDRx2a1g="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADi3gUxxWTiM="
+							},
+							"lineStyle": 2,
+							"points": "368:208;368:136;504:136",
+							"nameLabel": {
+								"$ref": "AAAAAAGADkZLDRyyKWM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGADi3gUhxU3mE=",
+					"_parent": {
+						"$ref": "AAAAAAGADi0G4RxPstg="
+					},
+					"name": "ИС книжного магазина",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkZLDRyvel8=",
+							"_parent": {
+								"$ref": "AAAAAAGADi3gUhxU3mE="
+							},
+							"name": "оповещение",
+							"source": {
+								"$ref": "AAAAAAGADi3gUhxU3mE="
+							},
+							"target": {
+								"$ref": "AAAAAAGADkBIDBx0vME="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGADkBCfRxpib0=",
+					"_parent": {
+						"$ref": "AAAAAAGADi0G4RxPstg="
+					},
+					"name": "Менеджер",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkRHuRyeRgM=",
+							"_parent": {
+								"$ref": "AAAAAAGADkBCfRxpib0="
+							},
+							"name": "данные о книгах",
+							"source": {
+								"$ref": "AAAAAAGADkBCfRxpib0="
+							},
+							"target": {
+								"$ref": "AAAAAAGADi3gUhxU3mE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGADkBIDBx0vME=",
+					"_parent": {
+						"$ref": "AAAAAAGADi0G4RxPstg="
+					},
+					"name": "Покупатель",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkGOKxyDFOU=",
+							"_parent": {
+								"$ref": "AAAAAAGADkBIDBx0vME="
+							},
+							"name": "заявка",
+							"source": {
+								"$ref": "AAAAAAGADkBIDBx0vME="
+							},
+							"target": {
+								"$ref": "AAAAAAGADi3gUhxU3mE="
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGADkdJ2xzFJhk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel2",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGADkdJ3BzGw50=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGADkg6ex1d4eQ=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkg6eh1b/08="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkg6ex1jRuY=",
+									"_parent": {
+										"$ref": "AAAAAAGADkg6ex1d4eQ="
+									},
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkg6ex1e2eQ=",
+									"_parent": {
+										"$ref": "AAAAAAGADkg6ex1d4eQ="
+									},
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Покупатель",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkg6ex1fCpQ=",
+									"_parent": {
+										"$ref": "AAAAAAGADkg6ex1d4eQ="
+									},
+									"font": "Arial;13;0",
+									"left": 288,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkg6ex1e2eQ="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGADkhi0R1ri08=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkhi0R1pFis="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkhi0h1xI0s=",
+									"_parent": {
+										"$ref": "AAAAAAGADkhi0R1ri08="
+									},
+									"font": "Arial;13;0",
+									"left": 154,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkhi0R1skFk=",
+									"_parent": {
+										"$ref": "AAAAAAGADkhi0R1ri08="
+									},
+									"font": "Arial;13;0",
+									"left": 154,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Менеджер",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkhi0R1t8jk=",
+									"_parent": {
+										"$ref": "AAAAAAGADkhi0R1ri08="
+									},
+									"font": "Arial;13;0",
+									"left": -104,
+									"top": -72,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 144,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkhi0R1skFk="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGADki4WR177FE=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADki4WR18Vgw=",
+									"_parent": {
+										"$ref": "AAAAAAGADki4WR177FE="
+									},
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 272,
+									"width": 77.8095703125,
+									"height": 39,
+									"text": "оформление заявки на книгу",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADki4WR19t0E=",
+									"_parent": {
+										"$ref": "AAAAAAGADki4WR177FE="
+									},
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 245,
+									"width": 77.8095703125,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 240,
+							"width": 97.8095703125,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAGADki4WR18Vgw="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADki4WR19t0E="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADkkAHB2I85Y=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkkAHB2GHv4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADkkAHB2JoVc=",
+									"_parent": {
+										"$ref": "AAAAAAGADkkAHB2I85Y="
+									},
+									"model": {
+										"$ref": "AAAAAAGADkkAHB2GHv4="
+									},
+									"font": "Arial;13;0",
+									"left": 487,
+									"top": 280,
+									"width": 40.33935546875,
+									"height": 13,
+									"alpha": 0.44975974807469843,
+									"distance": 32.202484376209235,
+									"hostEdge": {
+										"$ref": "AAAAAAGADkkAHB2I85Y="
+									},
+									"edgePosition": 1,
+									"text": "заявка"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADki4WR177FE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkg6ex1d4eQ="
+							},
+							"lineStyle": 2,
+							"points": "536:152;536:272;481:272",
+							"nameLabel": {
+								"$ref": "AAAAAAGADkkAHB2JoVc="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGADknINx2WRNM=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADknINx2UpEE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADknIOB2XKBI=",
+									"_parent": {
+										"$ref": "AAAAAAGADknINx2WRNM="
+									},
+									"font": "Arial;13;0",
+									"left": 252,
+									"top": 226,
+									"width": 65.76171875,
+									"height": 13,
+									"text": "кгниги",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADknIOB2Yz4I=",
+									"_parent": {
+										"$ref": "AAAAAAGADknINx2WRNM="
+									},
+									"font": "Arial;13;0",
+									"left": 237,
+									"top": 226,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 216,
+							"width": 95.76171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGADknIOB2XKBI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADknIOB2Yz4I="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADkoJhx2iKTI=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkoJhh2gF+g="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADkoJhx2jyZY=",
+									"_parent": {
+										"$ref": "AAAAAAGADkoJhx2iKTI="
+									},
+									"model": {
+										"$ref": "AAAAAAGADkoJhh2gF+g="
+									},
+									"font": "Arial;13;0",
+									"left": 95,
+									"top": 345,
+									"width": 98.515625,
+									"height": 13,
+									"alpha": -3.7683356367041254,
+									"distance": 71.61005515987263,
+									"hostEdge": {
+										"$ref": "AAAAAAGADkoJhx2iKTI="
+									},
+									"edgePosition": 1,
+									"text": "данные о книгах"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADkvHHh2z0F8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkhi0R1ri08="
+							},
+							"lineStyle": 2,
+							"points": "202:152;202:394;256:394",
+							"nameLabel": {
+								"$ref": "AAAAAAGADkoJhx2jyZY="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGADkvHHh2z0F8=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkvHHR2xj9c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkvHHh20IUE=",
+									"_parent": {
+										"$ref": "AAAAAAGADkvHHh2z0F8="
+									},
+									"font": "Arial;13;0",
+									"left": 266,
+									"top": 392,
+									"width": 55.9228515625,
+									"height": 26,
+									"text": "проверка книги",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkvHHh21+IU=",
+									"_parent": {
+										"$ref": "AAAAAAGADkvHHh2z0F8="
+									},
+									"font": "Arial;13;0",
+									"left": 266,
+									"top": 365,
+									"width": 55.9228515625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 256,
+							"top": 360,
+							"width": 75.9228515625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkvHHh20IUE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADkvHHh21+IU="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGADkwDiR2/HBs=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADkwDiR29p7c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkwDih3AO+0=",
+									"_parent": {
+										"$ref": "AAAAAAGADkwDiR2/HBs="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 400,
+									"width": 74.9404296875,
+									"height": 26,
+									"text": "оповещение покупателя",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADkwDih3BLuA=",
+									"_parent": {
+										"$ref": "AAAAAAGADkwDiR2/HBs="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 373,
+									"width": 74.9404296875,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 368,
+							"width": 94.9404296875,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAGADkwDih3AO+0="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADkwDih3BLuA="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADk51eR3aFn0=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADk51eR3Y2Hg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADk51eh3bn0Y=",
+									"_parent": {
+										"$ref": "AAAAAAGADk51eR3aFn0="
+									},
+									"model": {
+										"$ref": "AAAAAAGADk51eR3Y2Hg="
+									},
+									"font": "Arial;13;0",
+									"left": 215,
+									"top": 312,
+									"width": 92.015625,
+									"height": 13,
+									"alpha": -3.850218335381183,
+									"distance": 18.439088914585774,
+									"hostEdge": {
+										"$ref": "AAAAAAGADk51eR3aFn0="
+									},
+									"edgePosition": 1,
+									"text": "данные о книге"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADknINx2WRNM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkvHHh2z0F8="
+							},
+							"lineStyle": 2,
+							"points": "273:360;273:248",
+							"nameLabel": {
+								"$ref": "AAAAAAGADk51eh3bn0Y="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADlFfux4AVcA=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADlFfux3+Cog="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADlFfux4BDcs=",
+									"_parent": {
+										"$ref": "AAAAAAGADlFfux4AVcA="
+									},
+									"model": {
+										"$ref": "AAAAAAGADlFfux3+Cog="
+									},
+									"font": "Arial;13;0",
+									"left": 519,
+									"top": 328,
+									"width": 112.63916015625,
+									"height": 13,
+									"alpha": 1.4451983745212813,
+									"distance": 199.5720421301541,
+									"hostEdge": {
+										"$ref": "AAAAAAGADlFfux4AVcA="
+									},
+									"edgePosition": 1,
+									"text": "поступление книги"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADkg6ex1d4eQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADkwDiR2/HBs="
+							},
+							"lineStyle": 2,
+							"points": "600:368;600:136;586:136",
+							"nameLabel": {
+								"$ref": "AAAAAAGADlFfux4BDcs="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGADlMTIx4VUmg=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADlMTIx4WfD0=",
+									"_parent": {
+										"$ref": "AAAAAAGADlMTIx4VUmg="
+									},
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 466,
+									"width": 65.76171875,
+									"height": 13,
+									"text": "заявки",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGADlMTIx4Xecg=",
+									"_parent": {
+										"$ref": "AAAAAAGADlMTIx4VUmg="
+									},
+									"font": "Arial;13;0",
+									"left": 373,
+									"top": 466,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 456,
+							"width": 95.76171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGADlMTIx4WfD0="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGADlMTIx4Xecg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADlNRNB4iJHk=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADlNRMx4gzjE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADlNRNB4ja7c=",
+									"_parent": {
+										"$ref": "AAAAAAGADlNRNB4iJHk="
+									},
+									"model": {
+										"$ref": "AAAAAAGADlNRMx4gzjE="
+									},
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 392,
+									"width": 117.177734375,
+									"height": 13,
+									"alpha": -0.540418957283834,
+									"distance": 11.661903789690601,
+									"hostEdge": {
+										"$ref": "AAAAAAGADlNRNB4iJHk="
+									},
+									"edgePosition": 1,
+									"text": "данные заявки"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADlMTIx4VUmg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADki4WR177FE="
+							},
+							"lineStyle": 2,
+							"points": "432:321;432:456",
+							"nameLabel": {
+								"$ref": "AAAAAAGADlNRNB4ja7c="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADlv9eh48S8E=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADlv9eh46p2g="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADlv9eh49eTA=",
+									"_parent": {
+										"$ref": "AAAAAAGADlv9eh48S8E="
+									},
+									"model": {
+										"$ref": "AAAAAAGADlv9eh46p2g="
+									},
+									"font": "Arial;13;0",
+									"left": 309,
+									"top": 155,
+									"width": 92.015625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGADlv9eh48S8E="
+									},
+									"edgePosition": 1,
+									"text": "данные о книге"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADki4WR177FE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADknINx2WRNM="
+							},
+							"lineStyle": 2,
+							"points": "279:216;279:176;432:176;432:240",
+							"nameLabel": {
+								"$ref": "AAAAAAGADlv9eh49eTA="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGADl5GgR5Ikw8=",
+							"_parent": {
+								"$ref": "AAAAAAGADkdJ3BzGw50="
+							},
+							"model": {
+								"$ref": "AAAAAAGADl5Gfx5GFDI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGADl5GgR5JGIM=",
+									"_parent": {
+										"$ref": "AAAAAAGADl5GgR5Ikw8="
+									},
+									"model": {
+										"$ref": "AAAAAAGADl5Gfx5GFDI="
+									},
+									"font": "Arial;13;0",
+									"left": 463,
+									"top": 456,
+									"width": 97.4873046875,
+									"height": 13,
+									"alpha": -4.85039474518949,
+									"distance": 72.69112738154499,
+									"hostEdge": {
+										"$ref": "AAAAAAGADl5GgR5Ikw8="
+									},
+									"edgePosition": 1,
+									"text": "данные клиента"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGADkwDiR2/HBs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGADlMTIx4VUmg="
+							},
+							"lineStyle": 2,
+							"points": "463:472;584:472;584:436",
+							"nameLabel": {
+								"$ref": "AAAAAAGADl5GgR5JGIM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGADkg6eh1b/08=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "Покупатель",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkkAHB2GHv4=",
+							"_parent": {
+								"$ref": "AAAAAAGADkg6eh1b/08="
+							},
+							"name": "заявка",
+							"source": {
+								"$ref": "AAAAAAGADkg6eh1b/08="
+							},
+							"target": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGADkhi0R1pFis=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "Менеджер",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkoJhh2gF+g=",
+							"_parent": {
+								"$ref": "AAAAAAGADkhi0R1pFis="
+							},
+							"name": "данные о книгах",
+							"source": {
+								"$ref": "AAAAAAGADkhi0R1pFis="
+							},
+							"target": {
+								"$ref": "AAAAAAGADkvHHR2xj9c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGADki4WB15+rs=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "оформление заявки на книгу",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADkxntB3KsBo=",
+							"_parent": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							},
+							"source": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							},
+							"target": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADlNRMx4gzjE=",
+							"_parent": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							},
+							"name": "данные заявки",
+							"source": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							},
+							"target": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGADknINx2UpEE=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "кгниги",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADlv9eh46p2g=",
+							"_parent": {
+								"$ref": "AAAAAAGADknINx2UpEE="
+							},
+							"name": "данные о книге",
+							"source": {
+								"$ref": "AAAAAAGADknINx2UpEE="
+							},
+							"target": {
+								"$ref": "AAAAAAGADki4WB15+rs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGADkvHHR2xj9c=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "проверка книги",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADk51eR3Y2Hg=",
+							"_parent": {
+								"$ref": "AAAAAAGADkvHHR2xj9c="
+							},
+							"name": "данные о книге",
+							"source": {
+								"$ref": "AAAAAAGADkvHHR2xj9c="
+							},
+							"target": {
+								"$ref": "AAAAAAGADknINx2UpEE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGADkwDiR29p7c=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "оповещение покупателя",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADlFfux3+Cog=",
+							"_parent": {
+								"$ref": "AAAAAAGADkwDiR29p7c="
+							},
+							"name": "поступление книги",
+							"source": {
+								"$ref": "AAAAAAGADkwDiR29p7c="
+							},
+							"target": {
+								"$ref": "AAAAAAGADkg6eh1b/08="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGADlMTIh4TPxA=",
+					"_parent": {
+						"$ref": "AAAAAAGADkdJ2xzFJhk="
+					},
+					"name": "заявки",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADlQvcR4rOPY=",
+							"_parent": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							},
+							"source": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							},
+							"target": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGADl5Gfx5GFDI=",
+							"_parent": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							},
+							"name": "данные клиента",
+							"source": {
+								"$ref": "AAAAAAGADlMTIh4TPxA="
+							},
+							"target": {
+								"$ref": "AAAAAAGADkwDiR29p7c="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
